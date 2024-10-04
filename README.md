@@ -56,21 +56,21 @@ Ensure you have the following tools installed:
 **Install dependencies:**
 For the client:
 
-cd client
-npm install
+`cd client`
+`npm install`
 
 
 ## For the server:
 
-cd ../server
-npm install
+`cd ../server`
+`npm install`
 
 
 # Set up the database:
 
-npx prisma generate
-npx prisma migrate dev --name init
-npm run seed
+`npx prisma generate`
+`npx prisma migrate dev --name init`
+`npm run seed`
 
 
 # Configure environment variables:
