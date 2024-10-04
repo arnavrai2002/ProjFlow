@@ -53,9 +53,9 @@ Ensure you have the following tools installed:
    ```bash
    git clone [git url] ProjFlow
 
-# Install dependencies:
+2 **Install dependencies:**
 
-## For the client:
+```For the client:
 
 cd client
 npm install
