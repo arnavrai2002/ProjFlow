@@ -53,7 +53,7 @@ Ensure you have the following tools installed:
    ```bash
    git clone [git url] ProjFlow
 
-2. **Install dependencies:**
+**Install dependencies:**
 For the client:
 
 cd client
