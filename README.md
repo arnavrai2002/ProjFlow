@@ -52,3 +52,87 @@ Ensure you have the following tools installed:
 1. **Clone the repository:**
    ```bash
    git clone [git url] ProjFlow
+
+2. **Install dependencies:**
+
+For the client:
+
+bash
+
+cd client
+npm install
+
+For the server:
+
+bash
+
+cd ../server
+npm install
+
+Set up the database:
+
+bash
+
+npx prisma generate
+npx prisma migrate dev --name init
+npm run seed
+
+Configure environment variables:
+
+    .env for server settings:
+        PORT
+        DATABASE_URL
+    .env.local for client settings:
+        NEXT_PUBLIC_API_BASE_URL
+
+Run the project:
+
+bash
+
+    npm run dev
+
+𝐀𝐖𝐒 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐒𝐞𝐭𝐮𝐩
+
+    AWS IAM User
+        Set up an IAM user with necessary permissions.
+        Create access keys for programmatic access to AWS services.
+        Assign roles based on least privilege.
+
+    AWS Key Management Service (KMS)
+        Use KMS to manage encryption keys for securing sensitive data.
+        Apply key management to critical AWS services.
+
+    AWS RDS
+        Launch an RDS instance (PostgreSQL) for data management.
+        Configure security groups to limit access to authorized services.
+
+    Amazon Cognito
+        Set up Cognito for user authentication.
+        Manage signup, login, and social login (Google, Facebook).
+
+    Amazon API Gateway
+        Create RESTful APIs using API Gateway.
+        Set up routes and methods for backend services.
+
+    Amazon SNS
+        Set up SNS for real-time notifications.
+        Create an SNS topic and subscribe services to receive alerts.
+
+    Amazon CloudWatch
+        Monitor logs and metrics with CloudWatch.
+        Set up alarms for API and Lambda monitoring.
+
+    AWS Lambda
+        Implement serverless functions using AWS Lambda for dynamic tasks.
+
+    Amazon EC2
+        Launch an EC2 instance to host the backend services.
+        Configure security groups and set up key pairs.
+
+    Amazon S3
+        Create S3 buckets for static file storage and backups.
+        Set up lifecycle rules for file versioning and automatic management.
+
+    AWS Amplify
+        Deploy and host the frontend via AWS Amplify.
+        Enable continuous deployment (CI/CD) by connecting the repository.
