@@ -132,3 +132,8 @@ npm run dev
 ## AWS Amplify:
 - Deploy and host the frontend via AWS Amplify.
 - Enable continuous deployment (CI/CD) by connecting the repository.
+
+
+## Important Note
+
+**Make sure to set up a 0 Budget Plan in AWS Cost Explorer to avoid any charges.** This will help you monitor your spending and ensure that you do not incur unexpected costs while using AWS services.
