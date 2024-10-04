@@ -54,7 +54,10 @@ Ensure you have the following tools installed:
    git clone [git url] ProjFlow
 
 2. **Install dependencies:**
+For the client:
 
+cd client
+npm install
 
 
 ## For the server:
