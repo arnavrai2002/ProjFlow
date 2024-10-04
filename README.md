@@ -1,7 +1,5 @@
 # ProjFlow
 
-![ProjFlow Screenshot](https://github.com/user-attachments/assets/a550469b-048d-4751-a28c-96c64093f221)
-
 **ProjFlow** is a comprehensive project management tool designed to streamline project workflows, powered by a modern technology stack including Next.js, Node.js, Prisma ORM, PostgreSQL, and AWS cloud services.
 
 ---
@@ -14,14 +12,12 @@
 - **State Management**: Redux Toolkit, Redux Toolkit Query
 - **UI Components**: Material UI Data Grid
 
-![Frontend Screenshot](https://github.com/user-attachments/assets/c98734c8-2e73-46ef-8747-c934eda062c3)
 
 ### 𝐁𝐚𝐜𝐤𝐞𝐧𝐝
 - **Framework**: Node.js with Express
 - **ORM**: Prisma (PostgreSQL ORM)
 - **Database**: PostgreSQL, managed with PgAdmin
 
-![Backend Screenshot](https://github.com/user-attachments/assets/08802bca-67b4-402e-b636-7c4b15edfaec)
 
 ### 𝐂𝐥𝐨𝐮𝐝 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬
 - **AWS EC2**: Hosting the server
@@ -36,7 +32,6 @@
 - **AWS Key Management Service (KMS)**: Managing encryption keys
 - **AWS Data Transfer**: Managing data movement
 
-![Cloud Services Screenshot](https://github.com/user-attachments/assets/154e7473-42d0-421d-9c0e-554eae117b8a)
 
 ---
 
