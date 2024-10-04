@@ -49,9 +49,8 @@ Ensure you have the following tools installed:
 
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧 𝐒𝐭𝐞𝐩𝐬
 
-1. **Clone the repository:**
-   ```bash
-   git clone [git url] ProjFlow
+**Clone the repository:**
+`git clone [git url] ProjFlow`
 
 **Install dependencies:**
 For the client:
@@ -76,15 +75,15 @@ For the client:
 # Configure environment variables:
 
 # .env for server settings:
-PORT
-DATABASE_URL
+`PORT`
+`DATABASE_URL`
 
 # .env.local for client settings:
-NEXT_PUBLIC_API_BASE_URL
+`NEXT_PUBLIC_API_BASE_URL`
 
 # Run the project:
 
-npm run dev
+`npm run dev`
 
 
 # AWS Account Setup:
